@@ -1,0 +1,18 @@
+# GUI界面
+pyside6>=6.7.0
+qfluentwidgets>=1.7.0
+
+# 网络请求、下载服务端内核
+aiohttp>=3.9.0
+requests>=2.31.0
+
+# 异步运行环境
+asyncio; python_version < "3.7"
+
+# 打包发布
+pyinstaller>=6.0.0
+
+# 日志、配置解析
+pyyaml>=6.0
+
+# json一般Python自带，不需要写
